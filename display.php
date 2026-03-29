@@ -12,7 +12,7 @@ $result = mysqli_query($conn, "SELECT * FROM employees");
 
 <h2>Employee List</h2>
 
-<table border="1" cellpadding="10">
+<table border="1" cellpadding="10" style="background-color: lightblue; margin: auto;">
 <tr>
     <th>ID</th>
     <th>Name</th>
